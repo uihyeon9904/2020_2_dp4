@@ -1,0 +1,202 @@
+body{background-color: black;}
+
+.background{width: 100%; height: auto; padding-top: 1.9px;}
+.type{width: 12%; height: auto; position: absolute;}
+.t1{left: 0%; top: 0%;}
+.t2{left: 8%; top: 7%;}
+.t3{left: 15.6%; top: 8%;}
+.t4{left: 21.3%; top: 8%;}
+.t5{left: 27.5%; top: 9%;}
+.t6{left: 34.4%; top: -3%;}
+.t7{left: 48%; top: 3%;}
+.t8{left: 56.8%; top: 5%;}
+.t9{left: 65%; top: -9%;}
+
+.circle1{width: 4%; height: 7%; border-radius: 50%; 
+	     background-color: #FFF933; position: relative;
+	     filter: blur(29px);
+	     animation: circle1;
+         animation-duration: 7s;
+         animation-iteration-count: infinite;
+         animation-direction: alternate;}
+
+.circle2{width: 4%; height: 12%; border-radius: 50%; 
+	     background-color: #E5B1F9; position: relative;
+	     filter: blur(40px);
+	     animation: circle2;
+         animation-duration: 4s;
+         animation-iteration-count: infinite;
+         animation-direction: alternate;}
+
+.circle3{width: 5%; height: 8%; border-radius: 50%; 
+	     background-color: #7EBEFE; position: relative;
+	     filter: blur(30px);
+	     animation: circle3;
+         animation-duration: 9s;
+         animation-iteration-count: infinite;
+         animation-direction: alternate;}
+
+.circle4{width: 4%; height: 7%; border-radius: 50%; 
+	     background-color: #78F776; position: relative;
+	     filter: blur(30px);
+	     animation: circle4;
+         animation-duration: 5s;
+         animation-iteration-count: infinite;
+         animation-direction: alternate;}
+
+.circle5{width: 4%; height: 7%; border-radius: 50%; 
+	     background-color: #FC8162; position: relative;
+	     filter: blur(30px);
+	     animation: circle5;
+         animation-duration: 3s;
+         animation-iteration-count: infinite;
+         animation-direction: alternate;}
+
+.circle6{width: 4%; height: 7%; border-radius: 50%; 
+	     background-color: #95FEF3; position: relative;
+	     filter: blur(30px);
+	     animation: circle6;
+         animation-duration: 3s;
+         animation-iteration-count: infinite;
+         animation-direction: alternate;}
+
+.circle7{width: 4%; height: 7%; border-radius: 50%; 
+	     background-color: #D4FD76; position: relative;
+	     filter: blur(30px);
+	     animation: circle7;
+         animation-duration: 3s;
+         animation-iteration-count: infinite;
+         animation-direction: alternate;}
+
+.circle8{width: 5%; height: 8%; border-radius: 50%; 
+	     background-color: #76FDEB; position: relative;
+	     filter: blur(30px);
+	     animation: circle8;
+         animation-duration: 3s;
+         animation-iteration-count: infinite;
+         animation-direction: alternate;}
+  
+.i1{animation: opacity1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;}
+.n{animation: opacity2;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;}
+.s{animation: opacity3;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;}
+.i2{animation: opacity4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;}
+.d{animation: opacity5;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;}
+.e{animation: opacity6;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;}
+.o{animation: opacity7;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;}
+.u{animation: opacity8;
+   animation-duration: 4.5s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;}
+.t{animation: opacity9;
+   animation-duration: 6s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;}                        
+
+@keyframes opacity1
+           {0%{opacity: 0.6}
+           25%{opacity: 0.2}
+           50%{opacity: 0.5}
+           70%{opacity: 0.3}
+           100%{opacity: 1}}
+
+@keyframes opacity2
+           {0%{opacity: 0}
+           50%{opacity: 0.7}
+           80%{opacity: 0.6}
+           100%{opacity: 0.1}}
+
+@keyframes opacity3
+           {0%{opacity: 0.7}
+           30%{opacity: 0.2}
+           80%{opacity: 1}
+           100%{opacity: 0.5}}
+
+@keyframes opacity4
+           {0%{opacity: 0.2}
+           30%{opacity: 1}
+           60%{opacity: 0.4}
+           100%{opacity: 0.8}}
+
+@keyframes opacity5
+           {0%{opacity: 0.8}
+           25%{opacity: 0.2}
+           70%{opacity: 1}
+           100%{opacity: 0.6}}
+
+@keyframes opacity6
+           {0%{opacity: 0.3}
+           25%{opacity: 0.6}
+           70%{opacity: 0.4}
+           100%{opacity: 1}}
+
+@keyframes opacity7
+           {0%{opacity: 0.1}
+           60%{opacity: 1}
+           80%{opacity: 0.3}
+           100%{opacity: 0.5}}
+
+@keyframes opacity8
+           {0%{opacity: 0.4}
+           25%{opacity: 0.1}
+           50%{opacity: 0.7}
+           75%{opacity: 0.3}
+           100%{opacity: 0.7}}
+
+@keyframes opacity9
+           {0%{opacity: 0.8}
+           30%{opacity: 0.2}
+           80%{opacity: 1}
+           100%{opacity: 0.4}}
+
+@keyframes circle1
+           {0%{left: 6%; top: 60%; opacity: 1}
+           100%{left: 6%; top: 69%; opacity: 0.6}}
+
+@keyframes circle2
+           {0%{left: 16%; top: 3%; opacity: 0.8}
+           100%{left: 16%; top: 11%; opacity: 1}}
+
+@keyframes circle3
+           {0%{left: 37%; top: 61%; opacity: 1}
+           100%{left: 37%; top: 51%; opacity: 0.7}}
+
+@keyframes circle4
+           {0%{left: 70%; top: 40%; opacity: 0.5}
+           100%{left: 70%; top: 30%; opacity: 0.8}}
+
+@keyframes circle5
+           {0%{left: 90%; top: 19%; opacity: 1}
+           100%{left: 90%; top: 11%; opacity: 0.6}}
+
+@keyframes circle6
+           {0%{left: 65%; top: 3%; opacity: 0.5}
+           100%{left: 65%; top: 0%; opacity: 1}}
+
+@keyframes circle7
+           {0%{left: 26%; top: -10%; opacity: 0.5}
+           100%{left: 26%; top: -2%; opacity: 1}}
+
+@keyframes circle8
+           {0%{left: 57%; top: -65%; opacity: 0.5}
+           100%{left: 57%; top: -56%; opacity: 1}}
